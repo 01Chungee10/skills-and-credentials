@@ -1,0 +1,21 @@
+{
+  "name": "skills-and-credentials",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild src/story.js --bundle --splitting --format=esm --outdir=assets --minify --chunk-names=lib/[name]-[hash] --legal-comments=eof"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^3.15.1",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  },
+  "private": "true"
+}
